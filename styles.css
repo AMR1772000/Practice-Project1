@@ -1,3 +1,4 @@
+
 html {
     max-width: 1440px;
     background-color: hsl(221, 100%, 96%);
@@ -71,12 +72,15 @@ html {
     margin-bottom: 20px;
   }
   .text{
-    font-size:18px;
-    color:hsl(241, 100%, 89%);
+    font-size:16px;
+    color:hsla(241, 100%, 89%, 0.333);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+   
   }
   
   
@@ -106,6 +110,7 @@ html {
 }
 .icons{
   width: 25%;
+  margin-left: 10px;
 }
 .category{
   width:25%;
@@ -140,16 +145,17 @@ html {
   margin: 20px;
  }
 
- botton{
+ button{
   color:hsl(0, 0%, 100%); 
   width:280px ; 
   height:40px ;
-   background-color:  hsl(241, 81%, 54%);
+  background-color:  hsl(241, 81%, 54%);
   border-radius: 30px;
   justify-content: center;
   text-align: center;
   display: flex;
   align-items: center;
+  border: none;
  }
  botton:hover{
   background-color: hsl(224, 30%, 27%);
